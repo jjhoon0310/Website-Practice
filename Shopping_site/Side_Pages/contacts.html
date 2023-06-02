@@ -1,0 +1,101 @@
+<!Doctype html>
+<html>
+	<head>
+		<title>Title of the Website</title>
+		<meta charset="utf-8">
+  		<meta name="viewport" content="width=device-width, initial-scale=1">
+  		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>		
+		
+		<link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
+    	<script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+		
+		<link rel="stylesheet" href="style-side.css">
+		<link rel="stylesheet" href="phone-side.css">
+		<script src="script.js" defer></script>
+	</head>
+
+    <body>
+		<div class="topnav" id="myTopnav" onmouseover="hover(this)" onmouseout="notHover(this)">
+			<div class="topnav-float">
+				<div onclick="window.location='about.html'">
+					<a class="left-nav-option">About</a>
+				</div>
+				<div onclick="window.location='review.html'">
+					<a class="left-nav-option">Review</a>
+				</div>
+				<div onclick="window.location='contacts.html'">
+					<a class="left-nav-option">Contacts</a>
+				</div>
+				
+				<a class="icon" onclick="icon()">&#9776;</a>
+                <div onclick="window.location='C:/Websites/Olive_oil/index.html'">
+                    <a class="title">Title of the Website</a>
+                </div>
+				<img id="cart" onclick="cartOpen()" src="shopping-bag-black.png"></img>
+			</div>
+		</div>
+
+        <h1 class="side-title" id="contacts">CONTACTS</h1>
+		
+		<div class="main">
+			<div class="sendEmail">
+				<h3 class="inputName" id="name2">Name</h3>
+				<input
+					type="name"
+					id="name"
+					name="name"
+				>
+				<h3 class="inputName" id="email2">Email</h3>
+				<input
+					type="email"
+					id="email"
+					name="email"
+				>
+				<h3 class="inputName" id="subject2">Subject</h3>
+				<input
+					type="subject"
+					id="subject"
+					name="subject"
+				>
+				<h3 class="inputName">Your Message</h3>
+				<textarea id="message" name="message"></textarea>
+				<button id="sendButton" pys-onclick="send" pys-onclick="writeEmail" type="submit">Send Email</button>
+			</div>
+
+			<div class="contacts">
+				<div class="contactOption">
+					<img src="phone.png" class="logo" alt="phone">
+					<p>+353 123 1234</p>
+				</div>
+				<div class="contactOption">
+					<img src="letter.png" class="logo" alt="letter">
+					<p>example@gmail.com</p>
+				</div>
+				<div class="contactOption">
+					<img src="whatsapp.png" class="logo" alt="whatsapp">
+					<p>+353 123 1234</p>
+				</div>
+				<div class="contactOption">
+					<img src="instagram.png" class="logo" alt="instagram">
+					<p>@example</p>
+				</div>
+			</div>
+		</div>
+
+        <div id="icon-option">
+			<a href="javascript:void(0)" class="closebtn" onclick="iconClose()">&times;</a>
+			<a href="about.html">About</a>
+			<a href="review.html">Review</a>
+			<a href="contacts.html">Contacts</a>
+        </div> 
+
+		<div id="cart-list">
+			<h2>CART</h2>
+			<a href="javascript:void(0)" class="closebtn" onclick="cartClose()">&times;</a>
+			<hr class="hr">
+			<p>YOUR CART IS EMPTY</p>
+		</div>
+    </body>
+</html>
