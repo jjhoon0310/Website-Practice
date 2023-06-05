@@ -1,6 +1,6 @@
-@media screen and (max-width: 800px) {  
+@media screen and (max-width: 800px) {
     /* Top Navbar */
-    .topnav{
+    .topnav {
         height: 60px;
     }
 
@@ -11,31 +11,31 @@
     .topnav a:not(.title) {
         display: none;
     }
-    
+
     .topnav a.icon {
         float: left;
         display: block;
         color: white;
         padding: 18px 30px;
         font-size: 18px;
-    }   
+    }
 
-    .topnav:hover a.icon{
+    .topnav:hover a.icon {
         color: black;
     }
-    
+
     .topnav.responsive a {
         float: none;
         display: block;
         text-align: left;
     }
-    
+
     .topnav.responsive .icon {
         position: absolute;
         right: 0;
         top: 0;
     }
-    
+
     .topnav.responsive .topnav-float {
         float: right;
         width: 100%;
@@ -47,19 +47,17 @@
         width: 27px;
     }
 
-
-
     /* Main */
-    .main {   
+    .main {
         flex-direction: column;
     }
 
     .topic {
-        padding: 20px; 
+        padding: 20px;
         font-size: 15px;
         margin-bottom: -45px;
     }
-    
+
     .side {
         font-size: 15px;
     }
@@ -68,8 +66,6 @@
     .numbertext {
         padding-top: 72px;
     }
-    
-
 
     /* Cart list */
     #cart-list .closebtn {
@@ -77,7 +73,7 @@
         margin-left: 200px;
         margin-top: -38px;
     }
-    
+
     #cart-list h2 {
         font-size: 15px;
         margin-top: -30px;
@@ -87,10 +83,10 @@
     #cart-list .hr {
         margin-top: 5px;
     }
-    
+
     #cart-list p {
         font-size: 12px;
         margin-left: 50px;
         margin-top: 300px;
-    }    
+    }
 }

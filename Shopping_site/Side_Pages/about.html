@@ -1,64 +1,84 @@
-<!Doctype html>
+<!DOCTYPE html>
 <html>
-	<head>
-		<title>Title of the Website</title>
-		<meta charset="utf-8">
-  		<meta name="viewport" content="width=device-width, initial-scale=1">
-  		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>		
-		
-		<link rel="stylesheet" href="style-side.css">
-		<link rel="stylesheet" href="phone-side.css">
-		<script src="script.js" defer></script>
-	</head>
+    <head>
+        <title>Title of the Website</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script
+            src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            crossorigin="anonymous"
+        ></script>
+
+        <link rel="stylesheet" href="style-side.css" />
+        <link rel="stylesheet" href="phone-side.css" />
+        <script src="script.js" defer></script>
+    </head>
 
     <body>
-        <div class="topnav" id="myTopnav" onmouseover="hover(this)" onmouseout="notHover(this)">
-			<div class="topnav-float">
-				<div onclick="window.location='about.html'">
-					<a class="left-nav-option">About</a>
-				</div>
-				<div onclick="window.location='review.html'">
-					<a class="left-nav-option">Review</a>
-				</div>
-				<div onclick="window.location='contacts.html'">
-					<a class="left-nav-option">Contacts</a>
-				</div>
-				
-				<a class="icon" href="javascript:void(0)" onclick="icon()">&#9776;</a>
-				<div onclick="window.location='C:/Websites/Olive_oil/index.html'">
-					<a class="title">Title of the Website</a>
-				</div>
-				<img id="cart" onclick="cartOpen()"	src="shopping-bag-black.png"></img>
-			</div>
-		</div>
+        <div
+            class="topnav"
+            id="myTopnav"
+            onmouseover="hover(this)"
+            onmouseout="notHover(this)"
+        >
+            <div class="topnav-float">
+                <div onclick="window.location='about.html'">
+                    <a class="left-nav-option">About</a>
+                </div>
+                <div onclick="window.location='review.html'">
+                    <a class="left-nav-option">Review</a>
+                </div>
+                <div onclick="window.location='contacts.html'">
+                    <a class="left-nav-option">Contacts</a>
+                </div>
+
+                <a class="icon" href="javascript:void(0)" onclick="icon()"
+                    >&#9776;</a
+                >
+                <div
+                    onclick="window.location='C:/Websites/Olive_oil/index.html'"
+                >
+                    <a class="title">Title of the Website</a>
+                </div>
+                <img
+                    id="cart"
+                    onclick="cartOpen()"
+                    src="shopping-bag-black.png"
+                />
+            </div>
+        </div>
 
         <h1 class="side-title">ABOUT US</h1>
-		
-		<div class="main">
-			<div class="pic1"></div>
 
-			<h3 class="mainContent">
-				If you're looking for random paragraphs, 
-				you've come to the right place. When a random word 
-				or a random sentence isn't quite enough, the next logical 
-				step is to find a random paragraph.
-			</h3>
-		</div>
+        <div class="main">
+            <div class="pic1"></div>
+
+            <h3 class="mainContent">
+                If you're looking for random paragraphs, you've come to the
+                right place. When a random word or a random sentence isn't quite
+                enough, the next logical step is to find a random paragraph.
+            </h3>
+        </div>
 
         <div id="icon-option">
-			<a href="javascript:void(0)" class="closebtn" onclick="iconClose()">&times;</a>
-			<a href="about.html">About</a>
-			<a href="review.html">Review</a>
-			<a href="contacts.html">Contacts</a>
-		</div>
+            <a href="javascript:void(0)" class="closebtn" onclick="iconClose()"
+                >&times;</a
+            >
+            <a href="about.html">About</a>
+            <a href="review.html">Review</a>
+            <a href="contacts.html">Contacts</a>
+        </div>
 
-		<div id="cart-list">
-			<h2>CART</h2>
-			<a href="javascript:void(0)" class="closebtn" onclick="cartClose()">&times;</a>
-			<hr class="hr">
-			<p>YOUR CART IS EMPTY</p>
-		</div>
+        <div id="cart-list">
+            <h2>CART</h2>
+            <a href="javascript:void(0)" class="closebtn" onclick="cartClose()"
+                >&times;</a
+            >
+            <hr class="hr" />
+            <p>YOUR CART IS EMPTY</p>
+        </div>
     </body>
 </html>

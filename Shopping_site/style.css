@@ -1,27 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@200;400;600;700&family=Source+Sans+Pro:wght@200;300;400;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Gothic+A1:wght@200;400;600;700&family=Source+Sans+Pro:wght@200;300;400;600;700&display=swap");
 
 * {
     list-style: none;
     box-sizing: border-box;
-    font-family: 'gothic a1';
+    font-family: "gothic a1";
 }
 
-body{
-    background: #EFEFEF;
+body {
+    background: #efefef;
     margin: 0;
 }
-
-
 
 /* Top Navbar */
 .topnav {
     position: fixed;
     top: 0;
-    width: 100%; 
+    width: 100%;
     height: 67px;
     transition: 0.5s;
     text-decoration: none;
-    
+
     background-image: linear-gradient(white, white);
     background-size: 100% 0.05em;
     background-position-y: 100%;
@@ -46,7 +44,7 @@ body{
     padding: 22px;
     position: absolute;
     left: 50%;
-    margin-left: -105px; 
+    margin-left: -105px;
 }
 
 .topnav .icon {
@@ -64,7 +62,8 @@ body{
     margin-right: 2%;
 }
 
-.right-nav-option, .left-nav-option{
+.right-nav-option,
+.left-nav-option {
     font-size: 14px;
     padding: 25px 20px;
     font-weight: 200;
@@ -78,8 +77,10 @@ body{
     transition: background-size 0.2s ease-in-out;
 }
 
-.right-nav-option:hover:not(.title), .left-nav-option:hover:not(.title),
-.right-nav-option.active:not(.title), .left-nav-option.active:not(.title) {
+.right-nav-option:hover:not(.title),
+.left-nav-option:hover:not(.title),
+.right-nav-option.active:not(.title),
+.left-nav-option.active:not(.title) {
     background-size: 100% 0.1em;
 }
 
@@ -92,8 +93,6 @@ body{
     cursor: pointer;
 }
 
-
-
 /* Header */
 .mySlides {
     display: none;
@@ -105,12 +104,13 @@ body{
     position: relative;
 }
 
-.slideImg{
+.slideImg {
     width: 100%;
 }
-  
+
 /* Next & previous buttons */
-.prev, .next {
+.prev,
+.next {
     cursor: pointer;
     position: absolute;
     top: 50%;
@@ -175,25 +175,25 @@ body{
 
 @keyframes fade {
     from {
-        opacity: .4
+        opacity: 0.4;
     }
 
     to {
-        opacity: 1
+        opacity: 1;
     }
 }
 
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
-    .prev, .next,.text {
+    .prev,
+    .next,
+    .text {
         font-size: 11px;
     }
 }
 
-
-
 /* Main */
-.main{
+.main {
     display: flex;
     flex-wrap: wrap;
 }
@@ -207,11 +207,10 @@ body{
     font-size: 20px;
 }
 
-.side{
+.side {
     flex: 65%;
     padding: 20px;
 }
-
 
 /* Icon option bar */
 #icon-option {
@@ -221,10 +220,10 @@ body{
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #F5F5F7;
+    background-color: #f5f5f7;
     overflow-x: hidden;
     transition: 0.4s;
-    padding-top: 55px;  
+    padding-top: 55px;
 }
 
 #icon-option a {
@@ -235,18 +234,16 @@ body{
     color: black;
     display: block;
     text-shadow: var(--t, 0ch) 0 #fff;
-    text-indent: calc(-2*var(--b, 0ch));
+    text-indent: calc(-2 * var(--b, 0ch));
     background: linear-gradient(black 0 0) right/var(--d, 0) 100% no-repeat;
     transition: 0.4s linear;
 }
-  
+
 #icon-option a:hover:not(.closebtn) {
     --d: 100%;
     --t: 200px;
     --b: 100px;
 }
-
-
 
 /* Cart List */
 #cart-list {
@@ -256,10 +253,10 @@ body{
     z-index: 1;
     top: 0;
     right: 0;
-    background-color: #F5F5F7;
+    background-color: #f5f5f7;
     overflow-x: hidden;
     transition: 0.4s;
-    padding-top: 55px;  
+    padding-top: 55px;
 }
 
 #icon-option .closebtn {
@@ -299,4 +296,3 @@ body{
     margin-top: 300px;
     letter-spacing: 2px;
 }
-
