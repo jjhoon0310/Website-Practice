@@ -1,0 +1,142 @@
+@media screen and (max-width: 800px) {
+    /* Top Navbar */
+    .topnav {
+        height: 60px;
+    }
+
+    .title {
+        font-size: 19px;
+    }
+
+    .topnav a:not(.title) {
+        display: none;
+    }
+
+    .topnav a.icon {
+        float: left;
+        display: block;
+        color: black;
+        padding: 18px 30px;
+        font-size: 18px;
+    }
+
+    .topnav:hover a.icon {
+        color: black;
+    }
+
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+    .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .topnav.responsive .topnav-float {
+        float: right;
+        width: 100%;
+    }
+
+    #cart {
+        margin-top: 15px;
+        margin-right: 13px;
+        height: 27px;
+        width: 27px;
+    }
+
+    /* Heading */
+    .side-title {
+        font-size: 20px;
+        letter-spacing: 4px;
+        margin-top: 100px;
+        margin-left: -63px;
+    }
+
+    #review {
+        margin-left: -58px;
+    }
+
+    #contacts {
+        margin-left: -65px;
+    }
+
+    /* Main */
+    .main {
+        width: 80%;
+        margin-top: 160px;
+        margin-left: 10%;
+    }
+
+    /* About Page */
+    .mainContent {
+        margin-top: 40px;
+        font-size: 16px;
+        letter-spacing: 0.5px;
+    }
+
+    /* Review Page */
+    .review {
+        font-size: 14px;
+    }
+
+    /* Contacts Page */
+    .inputName {
+        font-size: 14px;
+    }
+
+    #name,
+    #email {
+        width: 86.3%;
+        margin-left: 8%;
+    }
+
+    #name {
+        position: relative;
+        margin-bottom: 12px;
+    }
+
+    #email2 {
+        margin-left: 8%;
+    }
+
+    .contacts {
+        margin-top: 50px;
+        font-size: 13px;
+    }
+
+    .contactOption {
+        margin-bottom: 12px;
+    }
+
+    .logo {
+        width: 25px;
+        height: 25px;
+    }
+
+    /* Cart list */
+    #cart-list .closebtn {
+        font-size: 30px;
+        margin-left: 200px;
+        margin-top: -38px;
+    }
+
+    #cart-list h2 {
+        font-size: 15px;
+        margin-top: -30px;
+        margin-left: 25px;
+    }
+
+    #cart-list .hr {
+        margin-top: 5px;
+    }
+
+    #cart-list p {
+        font-size: 12px;
+        margin-left: 50px;
+        margin-top: 300px;
+    }
+}
