@@ -1,0 +1,122 @@
+<!Doctype html>
+<html>
+	<head>
+		<title>Holder</title>
+		<meta charset="utf-8">
+  		<meta name="viewport" content="width=device-width, initial-scale=1">
+  		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>		
+		
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="phone.css">
+		<script src="script.js" defer></script>
+	</head>
+
+	<body>
+		<div class="main">
+			<div id="header">
+				<h1 class="model">iPhone Holder</h1>
+				<div class="slideshow-container">
+					<div class="mySlides fade">
+					  	<div class="numbertext">1 / 3</div>
+					  	<img class="slideImg1" src="slide1.png">
+					</div>
+
+					<div class="mySlides fade">
+						<div class="numbertext">2 / 3</div>
+						<img class="slideImg2" src="slide2.png">
+					</div>	
+
+					<div class="mySlides fade">
+						<div class="numbertext">3 / 3</div>
+						<img class="slideImg3" src="slide3.png">
+						<h2 class="add">Add Device</h2>
+					</div>
+					
+					<a class="prev" onclick="plusSlides(-1)">❮</a>
+					<a class="next" onclick="plusSlides(1)">❯</a>
+					
+				</div>
+				<div style="text-align:center">
+					<br>
+					<span class="dot" onclick="currentSlide(1)"></span> 
+					<span class="dot" onclick="currentSlide(2)"></span> 
+					<span class="dot" onclick="currentSlide(3)"></span> 
+				</div>
+			</div>	
+
+			<div class="topnav" id="myTopnav" onmouseover="hover(this)" onmouseout="notHover(this)">
+				<div class="topnav-float">
+					<div onclick="window.location=''">
+						<a class="left-nav-option">General</a>
+						<div class="dropdown-content">
+							<a href="#">About Holder</a>
+							<a href="#">Account</a>
+						</div>
+					</div>
+					<div onclick="window.location=''">
+						<a class="left-nav-option">Drive</a>
+						<div class="dropdown-content">
+							<a href="#">My Place</a>
+							<a href="#">History</a>
+							<a href="#">Driving Score</a>
+						</div>
+					</div>
+					<div onclick="window.location=''">
+						<a class="left-nav-option">Car</a>
+						<div class="dropdown-content">
+							<a href="#">My Car</a>
+							<a href="#">Manage</a>
+						</div>
+					</div>
+					
+					<a class="icon" href="javascript:void(0)" onclick="icon()">&#9776;</a>
+					<img class="title" src="logo.png">
+					<img class="right-nav-option" src="user.png" alt="User">
+				</div>
+			</div>
+
+			<div class="topic">
+				<a href="myPlace/myPlace.html" class="mainOption">
+					<span class="link"></span>
+					<img class="mainIcon" src="icon1.png">
+					<p class="mainDesc">MY PLACE</p>
+				</a>
+
+				<a href="myCar/myCar.html" class="mainOption">
+					<span class="link"></span>
+					<img class="mainIcon" src="icon2.png">
+					<p class="mainDesc">MY CAR</p>
+				</a>
+
+				<a href="history/history.html" class="mainOption">
+					<span class="link"></span>
+					<img class="mainIcon" src="icon3.png">
+					<p class="mainDesc">HISTORY</p>
+				</a>
+
+				<a href="driving/driving.html" class="secondOption">
+					<span class="link"></span>
+					<img class="secondIcon" src="driving.png">
+					<p class="secondDesc">Start Driving</p>
+				</a>
+			</div>
+		</div>
+
+		<div id="icon-option">
+			<a href="javascript:void(0)" class="closebtn" onclick="iconClose()">&times;</a>
+			<h2 class="icon-option">General</h2>
+				<a href="" class="icon-list">MyHolder</a>
+				<a href="" class="icon-list">Account</a>
+			<h2 class="icon-option">Drive</h2>
+				<a href="myPlace/myPlace.html" class="icon-list">My Place</a>
+				<a href="history/history.html" class="icon-list">History</a>
+				<a href="" class="icon-list">Driving Score</a>
+			<h2 class="icon-option">Car</h2>
+				<a href="myCar/myCar.html" class="icon-list">My Car</a>
+				<a href="" class="icon-list">Services</a>
+		</div>
+	</body>
+</html>
+
