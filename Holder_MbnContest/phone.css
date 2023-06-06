@@ -1,0 +1,220 @@
+@media screen and (max-width: 800px) {  
+    /* Top Navbar */
+    .topnav{
+        height: 60px;
+    }
+
+    .topnav img.title{
+        width: 52px;
+        height: 60px;
+        float: left;
+        padding: 10px;
+        position: absolute;
+        left: 44%;
+    }
+
+    .topnav.responsive .topnav-float {
+        float: right;
+        width: 100%;
+    }
+
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+    .topnav a:not(.title) {
+        display: none;
+    }
+    
+    /* Menu Icon */
+    .topnav a.icon {
+        float: left;
+        display: block;
+        color: black;
+        padding: 17px 30px;
+        font-size: 25px;
+    }   
+
+    .topnav:hover a.icon{
+        color: white;
+    }
+
+    .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    /* Nav Options */
+    .right-nav-option {
+        width: 50px;
+        height: 60px;
+    }
+
+    .topnav img.right-nav-option {
+        position: absolute;
+        right: 0%;
+        width: 42px;
+        height: 50px;
+        padding: 15px 10px;
+        margin: 9px;
+    }
+
+    /* Icon option bar */
+    #icon-option {
+        width: 0;
+        height: 100%;
+        position: fixed;
+        z-index: 2;
+        top: 0;
+        left: 0;
+        background-color: #F5F5F7;
+        overflow-x: hidden;
+        transition: 0.4s;
+        padding-top: 55px;  
+    }
+
+    #icon-option h2, a {
+        padding: 8px 8px 8px 35px;
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: 300;
+        color: black;
+        display: block;
+        text-shadow: var(--t, 0ch) 0 #fff;
+        text-indent: calc(-2*var(--b, 0ch));
+        background: linear-gradient(black 0 0) right/var(--d, 0) 100% no-repeat;
+        transition: 0.4s linear;
+    }
+
+    #icon-option h2 {
+        background-color: rgb(226,	232, 250);
+    }
+
+    #icon-option .closebtn {
+        position: absolute;
+        top: 10px;
+        right: 20px;
+        font-size: 36px;
+    }
+    
+    #icon-option a:hover:not(.closebtn) {
+        --d: 100%;
+        --t: 200px;
+        --b: 100px;
+    }
+
+
+
+    /* Header */
+    .model {
+        font-size: 28px;
+        padding-right: 20px;
+    }
+
+    .slideImg1 {
+        width: 45%;
+        margin-left: 22%;
+    }
+
+    .slideImg2 {
+        width: 35.5%;
+        margin-left: 29%;
+    }
+
+    .slideImg3 {
+        width: 25%;
+        margin-top: 6%;
+        margin-left: 37.2%;
+    }
+
+    .add {
+        padding-top: 15px;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .slideshow-container {
+        margin-top: 5px;
+    }
+
+    .prev, .next {
+        margin-top: 45%;
+    }
+
+    .numbertext {
+        padding-top: 50px;
+    }
+
+
+
+    /* Main Information */
+    .topic {
+        margin-left: 12%;
+    }
+    
+    .mainOption {
+        background-color: rgb(230, 230, 230);
+        border-radius: 10px;
+        float: left;
+        width: 28.5%;
+        height: 150px;
+        margin: 8% 2%;
+        padding: 30px;
+    }
+
+    .mainOption:hover {
+        background-color: rgb(226,	232, 250);
+    }
+    
+    .mainDesc {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 15px;
+    }
+    
+    .mainIcon {
+        width: 45px;
+        height: 45px;
+    }
+
+    .link {
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+    }
+    
+    .topic {
+        margin-left: 3%;
+    }
+
+    .secondOption {
+        background-color: rgb(230, 230, 230);
+        border-radius: 10px;
+        float: left;
+        width: 70%;
+        height: 120px;
+        margin: -2% 13%;
+        padding: 10px 5px 0px 0px;
+    }
+
+    .secondOption:hover {
+        background-color: rgb(159, 183, 255);
+    }
+
+    .secondDesc {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        margin-top: 38px;
+        margin-right: 40px;
+        float: right;
+    }
+    
+    .secondIcon {
+        width: 100px;
+        height: 100px;
+        margin: 0px 30px;
+    }
+}
