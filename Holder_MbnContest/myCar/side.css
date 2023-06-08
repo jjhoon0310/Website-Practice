@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@200;400;600;700&family=Source+Sans+Pro:wght@200;300;400;600;700&display=swap');
+
+* {
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'gothic a1';
+}
+
+body{
+    background: white;
+    margin: 0;
+}
+
+
+
+/* Top Navbar */
+.topnav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    height: 60px;
+    
+    background-color: rgb(226,	232, 250);
+}
+
+.title {
+    text-align: center;
+    padding-top: 6px;
+    margin-right: 14%;
+    font-size: 20px;
+}
+
+.back {
+    float: left;
+    margin: 16px;
+    width: 30px;
+}
+
+
+
+/* More Options */
+.icon-option {
+    float: left;
+    font-size: 20px;
+    margin-left: 4%;
+    padding-bottom: -10px;
+}
+
+.icon-list {
+    font-size: 16px;
+    margin-left: 4%;
+}
+
+.arrow {
+    float: right;
+    margin-top: -38px;
+    margin-right: 8px;
+    width: 25px;
+}
+
+.row {
+    left: 0;
+    width: 100%;
+}
+
+.topic {
+    margin-top: 15%;
+    margin-left: 5%;
+    padding-bottom: 190px;
+    text-align: center;
+}
+
+
+
+/* My Car */
+.topic {
+    margin-bottom: -170px;
+}
+
+.car {
+    margin-right: 8%;
+    width: 40%;
+}
+
+.tire1 {
+    position: absolute;
+    margin-top: 14%;
+    margin-left: 20%;
+
+    font-size: 14px;
+}
+
+.tire2 {
+    position: absolute;
+    margin-top: 14%;
+    margin-left: 59%;
+
+    font-size: 14px;
+}
+
+.tire3 {
+    position: absolute;
+    margin-top: 57%;
+    margin-left: 20%;
+
+    font-size: 14px;
+    color: red;
+}
+
+.tire4 {
+    position: absolute;
+    margin-top: 57%;
+    margin-left: 59%;
+
+    font-size: 14px;
+}
+
+.level {
+    position: absolute;
+    left: 0;
+    margin-top: 80%;
+    margin-left: 5%;
+    display: inline-block;
+    width: 90%;
+    height: 4px;
+    border-radius: 4px;
+    background: rgb(228, 227, 227);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .5);
+}
+
+.currentLevel {
+    position: absolute;
+    left: 0;
+    margin-top: 79.8%;
+    margin-left: 5%;
+    display: inline-block;
+    width: 65%;
+    height: 6px;
+    background: #2e5af8;
+    border-radius: 4px;
+}
+
+.fuel {
+    margin-right: 91%;
+    margin-top: 11%;
+    font-size: 14px;
+}
